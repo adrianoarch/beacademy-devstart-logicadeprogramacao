@@ -1,0 +1,12 @@
+1 - verificar se o pneu está danificado
+2 - parar o veiculo em um local seguro
+3 - desligar o veiculo
+4 - verificar se possui as ferramentas necessárias para a troca do pneu (estepe, macaco...) e pega-las 
+5 - elevar o veiculo com o auxilio do macaco
+6 - remover roda defeituosa
+7 - colocar estepe
+8 - baixar o carro
+9 - botar parafusos de volta
+10 - guardar ferramentas
+11 - ligar veiculo
+12 - seguir viagem
