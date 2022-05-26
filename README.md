@@ -4,4 +4,4 @@
 
 ## Exercício 1
 ### Faça um algoritmo para efetuar a troca de um pneu furado
-[Resolução](./Exercicio01-TrocaPneu.txt)
+[Resolução](./resolucao_exercicios/Exercicio01-TrocaPneu.txt)
