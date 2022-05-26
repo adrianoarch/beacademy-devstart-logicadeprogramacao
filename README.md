@@ -90,5 +90,43 @@
 ### Crie um programa que permita ao usuário tentar logar em seu Sistema informando seu nome e senha. Repita a operação até que o nome e senha correspondam a um valor armazenado(Marcos – 1234). Caso o usuário digite -1 interrompa a repetição e informe que o programa será finalizado por solicitação do usuário.
 [Resolução](./resolucao_exercicios/Exercicio20-LogarSistema.ALG)
 
+## Exercício 21
+### Solicitar a idade de várias pessoas e imprimir:
+### • Total de pessoas com menos de 18 anos.
+### • Total de pessoas com mais de 60 anos.
+### • O programa termina quando idade for =-99.
+[Resolução](./resolucao_exercicios/Exercicio21-SomIdades.ALG)
+
+## Exercício 22
+### Apresentar o total da soma obtida dos cem primeiros números inteiros.
+[Resolução](./resolucao_exercicios/Exercicio22-Soma100.ALG)
+
+## Exercício 23
+### Crie um programa inicie o saldo do cliente com R$ 1000,00 e que permita o saques consecutivos no valor de R$ 150.00 até que seu saldo seja positivo.
+[Resolução](./resolucao_exercicios/Exercicio23-Sque150.ALG)
+
+## Exercício 24
+### Faça um programa que solicite ao usuário o nome e o preço de 10 produtos e armazene-os em um vetor. Ao final imprima o nome e os valores correspondentes dos produtos.
+[Resolução](./resolucao_exercicios/Exercicio24-CadastroProdutoVetor.ALG)
+
+## Exercício 25
+### Crie um programa que permita cadastrar os seguintes dados de um Aluno: Nome, nota1 e nota2. Receba estes valores em vetores e calcule e exiba ao final todos os dados e a informação se o aluno foi aprovado(media maior ou igual a 6) ou reprovado(media inferior a 6).
+[Resolução](./resolucao_exercicios/Exercicio25-NotasAluno.ALG)
+
+## Exercício 26
+### Crie um programa que permita ao usuário cadastrar 5 clientes com os seguintes dados: • Nome; • CPF; • RG; • Endereço; e • Telefone.
+[Resolução](./resolucao_exercicios/Exercicio26-DadosClientes.alg)
+
+## Exercício 27
+### Crie um programa que permita o cadastro de uma Matriz e exiba a soma da diagonal principal e secundária.
+[Resolução](./resolucao_exercicios/Exercicio27-SomaDiagonais.alg)
+
+## Exercício 28
+### Considere uma planilha de 5 linhas por 4 colunas, a qual será representada por uma matriz bidimensional.
+### • Desenvolva um programa que faça a leitura, a partir do teclado, dos valores numéricos das primeiras 4 linhas e 3 colunas da planilha.
+### • Realizada a leitura, armazenar a soma dos valores de cada linha na linha correspondente da última coluna. Finalmente, armazenar a soma dos valores de cada coluna na coluna correspondente da última linha da planilha. Imprima a planilha ao final.
+[Resolução](./resolucao_exercicios/Exercicio28-SomaValores.alg)
 
 
+## Autor
+- [@adrianoarch](https://www.github.com/adrianoarch)
