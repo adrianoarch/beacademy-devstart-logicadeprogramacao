@@ -1,9 +1,9 @@
 Algoritmo "Exercicio15-SwitchCase"
-// Disciplina   : [Be Academy - Lógica de programação | Aula 8]
+// Disciplina   : [Be Academy - Lï¿½gica de programaï¿½ï¿½o | Aula 8]
 // Professor   : Marcos Monteiro
-// Descrição   :
+// Descriï¿½ï¿½o   :
 // Autor(a)    : Adriano de Oliveira
-// Data atual  : 05/05/2022
+// Data atual  : 23/05/2022
 Var
    operacao : caractere
    saldo : real
@@ -19,28 +19,28 @@ Inicio
 
       saldo <- 800
 
-      escreval("Olá! Quantas operações você deseja fazer?")
+      escreval("Olï¿½! Quantas operaï¿½ï¿½es vocï¿½ deseja fazer?")
       leia(nOperacao)
 
       para i de 1 ate nOperacao faca
 
-      escreval("D - Depósito | S - Saque | T - Transferência")
+      escreval("D - Depï¿½sito | S - Saque | T - Transferï¿½ncia")
       leia(operacao)
       escolha operacao
       caso "D"
-      escreval("Qual valor você gostaria de depositar?")
+      escreval("Qual valor vocï¿½ gostaria de depositar?")
       leia(valorDeposito)
       saldo <- saldo + valorDeposito
-      escreval("Você realizou uma operação de depósito com sucesso. Seu saldo inicial era de:", saldo - valorDeposito, " | Seu saldo atual é:", saldo)
+      escreval("Vocï¿½ realizou uma operaï¿½ï¿½o de depï¿½sito com sucesso. Seu saldo inicial era de:", saldo - valorDeposito, " | Seu saldo atual ï¿½:", saldo)
 
       caso "S"
-      escreval("Qual valor você gostaria de sacar?")
+      escreval("Qual valor vocï¿½ gostaria de sacar?")
       leia(valorSaque)
       se (saldo < valorSaque) entao
       escreva("Ops! Saldo insuficiente.")
       senao faca
       saldo <- saldo - valorSaque
-      escreval("Você realizou uma operação de saque com sucesso. Seu saldo inicial era de:", saldo + valorSaque, " | Seu saldo atual é:", saldo)
+      escreval("Vocï¿½ realizou uma operaï¿½ï¿½o de saque com sucesso. Seu saldo inicial era de:", saldo + valorSaque, " | Seu saldo atual ï¿½:", saldo)
       fimse
 
       caso "T"
@@ -50,17 +50,17 @@ Inicio
       leia(agencia)
       escreval("Qual a conta de destino?")
       leia(conta)
-      escreval("Qual o valor da transferência?")
+      escreval("Qual o valor da transferï¿½ncia?")
       leia(valorTransf)
       se (saldo < valorTransf) entao
       escreva("Ops! Saldo insuficiente.")
       senao faca
       saldo <- saldo - valorTransf
-      escreval("Você realizou uma operação de transferência no valor de", valorTransf, " para Banco: ", banco, " | Agência: ", agencia, " | Conta: ", conta, " | Seu saldo inicial era de: ", saldo + valorTransf, " | Seu saldo atual é: ", saldo)
+      escreval("Vocï¿½ realizou uma operaï¿½ï¿½o de transferï¿½ncia no valor de", valorTransf, " para Banco: ", banco, " | Agï¿½ncia: ", agencia, " | Conta: ", conta, " | Seu saldo inicial era de: ", saldo + valorTransf, " | Seu saldo atual ï¿½: ", saldo)
       fimse
 
       outrocaso
-      escreval("ERRO: [Escolha uma das opções]")
+      escreval("ERRO: [Escolha uma das opï¿½ï¿½es]")
 
       fimescolha
 
